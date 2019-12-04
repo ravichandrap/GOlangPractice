@@ -1,0 +1,37 @@
+.idea
+bin
+.env
+debug
+__debug_bin
+.serverless
+node_modules
+.vscode
+rest-api.http
+.DS_Store
+
+.scannerwork/
+coverage.out
+report.json
+sonar-project.properties
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml

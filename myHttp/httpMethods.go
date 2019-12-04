@@ -62,6 +62,7 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", GetHandler)
 	mux.HandleFunc("/post", PostHandler)
+	mux.
 
 	log.Printf("listening on port %s", *flagPort)
 	log.Fatal(http.ListenAndServe(":"+*flagPort, mux))

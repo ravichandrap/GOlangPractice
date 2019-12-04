@@ -5,14 +5,17 @@ import (
 	"math"
 )
 
+//Shape interface for Circle and Reactangel
 type Shape interface {
 	area() float64
 }
 
+//Circle struct
 type Circle struct {
 	x, y, r float64
 }
 
+//Rectangel strict
 type Rectangel struct {
 	x1, y1, x2, y2 float64
 }
