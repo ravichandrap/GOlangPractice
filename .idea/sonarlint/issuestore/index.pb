@@ -1,16 +1,8 @@
 
->
-StringsDemo.go,e/b/eb0f249c0020c38d149f7dce7887b8a1c5b69722
-<
-ErrorDemo.go,1/e/1e40905b2262a6466b9e2d17b27653cf8c4e30ea
 D
 range/ChannelDemo.go,1/1/112310adc0976e03c660e89482a7ff0019783424
 C
 range/Range_demo.go,8/c/8cf33daf96e9ca606b11753a2f6b0049589d77b8
-;
-UrlParse.go,c/7/c7b38418f6c42c2df9134aa10156fab2a33cc669
-=
-RandamDemo.go,9/3/9368096c0b1818386da2438b3402c76d0c02cb11
 A
 range/makeDemo.go,4/e/4ef5264389d7375598b495960bd44d78477b821a
 @
@@ -33,14 +25,8 @@ B
 slice/DemoSlice.go,6/d/6d8ca9eacbd4323fa4be8f421c8d086fdc8bd6f4
 D
 differ/DifferDemo.go,d/2/d2ef730f28eb115b3fce3233d8f17ad71d77cffd
-?
-json/EmpDemo.go,8/6/863acc3e78f5b953fd72a451d67f2a11ebad0f02
-F
-json/AnimalJsonDemo.go,e/d/ed813fffa85ee2b5bc972c45d090ce0a87d36839
 F
 maps/PeopleMapsDemo.go,7/a/7a62b72c5ba47ce0fd212b5500fbe1b2a7782aa0
-I
-json/httpJsonReadWrite.go,7/3/73fe7f4e4097f18fcbdbc5f2a9da55561ccb9027
 L
 goroutines/GoRoutinesDemo.go,2/a/2a3cc02093b8cbb9130d11a5272c14391a3befa9
 J
@@ -87,3 +73,15 @@ F
 structs/ValueChange.go,d/9/d9a72125909ddbaa564e5c9c9440d16b828895cb
 B
 enums/EnumsDemo.go,b/f/bf8f1176140295451e77dcf5f82d8ff1f18f755f
+I
+io/json/AnimalJsonDemo.go,3/4/34cb321d797d67309fe5e086c2431f391777952a
+B
+io/json/EmpDemo.go,8/d/8da1bfa5e24f2abcfce10135e50b4d4456fbbf6c
+L
+io/json/httpJsonReadWrite.go,5/9/59c956d9293f09afc0e41f7527657d4e9dc2ee13
+@
+http/HttpDemo.go,2/9/2992da7a7a55eed6865fc0dc374068cbcfc8143d
+A
+io/csv/myfile.csv,7/a/7ab1363e89787ac2df66932bc79b0705eaf31dec
+E
+io/csv/ReadCSVFile.go,6/8/68961ff9cf63336f1c06dc530f8fb1527dd1ce85

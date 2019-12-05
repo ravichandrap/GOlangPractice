@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7783b97-42bf-4669-91be-af9fcfba06e4" name="Default Changelist" comment="" />
+    <list default="true" id="c7783b97-42bf-4669-91be-af9fcfba06e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e40905b2262a6466b9e2d17b27653cf8c4e30ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73fe7f4e4097f18fcbdbc5f2a9da55561ccb9027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863acc3e78f5b953fd72a451d67f2a11ebad0f02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9368096c0b1818386da2438b3402c76d0c02cb11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7b38418f6c42c2df9134aa10156fab2a33cc669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb0f249c0020c38d149f7dce7887b8a1c5b69722" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed813fffa85ee2b5bc972c45d090ce0a87d36839" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +27,16 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qv9abP2i9X7cNyNbXJiNfbkH0v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -34,7 +52,11 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/io" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/range" />
     </key>
@@ -51,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build showYearWeekDay.go">
+  <component name="RunManager" selected="Go Build.go build VICCIDataVersion.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -71,29 +93,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ValueChange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GOPractice/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="firstGoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/http/HttpDemo.go" />
+      <package value="GOPractice/http" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ReadCSVFile.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structs/ValueChange.go" />
+      <filePath value="$PROJECT_DIR$/io/csv/ReadCSVFile.go" />
       <package value="firstGoPro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build firstGoPro/structs" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstGoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/structs/ValueChange.go" />
-      <package value="firstGoPro/structs" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build mapInterface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build VICCIDataVersion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/interface/mapInterface.go" />
+      <filePath value="$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go" />
       <package value="firstGoPro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -120,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build VICCIDataVersion.go" />
+        <item itemvalue="Go Build.go build ReadCSVFile.go" />
+        <item itemvalue="Go Build.go build GOPractice/http" />
         <item itemvalue="Go Build.go build showYearWeekDay.go" />
         <item itemvalue="Go Build.go build EnumsDemo.go" />
-        <item itemvalue="Go Build.go build ValueChange.go" />
-        <item itemvalue="Go Build.go build firstGoPro/structs" />
-        <item itemvalue="Go Build.go build mapInterface.go" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +180,26 @@
       <workItem from="1574675815646" duration="4955000" />
       <workItem from="1575028297874" duration="4887000" />
       <workItem from="1575116899553" duration="1646000" />
+      <workItem from="1575311011151" duration="4471000" />
+      <workItem from="1575448811619" duration="4088000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -176,6 +213,11 @@
           <url>file://$PROJECT_DIR$/structs/ValueChange.go</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
