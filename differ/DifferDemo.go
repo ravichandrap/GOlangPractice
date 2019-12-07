@@ -12,12 +12,14 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer res.Body.Close()
+	defer func() {
+		res.Body.Close()
+	}()
 	robots, err := ioutil.ReadAll(res.Body)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("%s",robots)
+	fmt.Printf("%s", robots)
 }

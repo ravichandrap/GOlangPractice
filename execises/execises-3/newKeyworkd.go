@@ -2,14 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
+func mainW() {
 
 	default1 := "first default value "
-	default2 := new("first default value ")
-	fmt.Println(changeValueWithPinter(*default1))
-	fmt.Println(changeValueWithPinter(default2))
+	fmt.Println(changeValueWithPinter(default1))
 }
 
-func changeValueWithPinter(value *string) {
-	*value = "changed value here "
+func changeValueWithPinter(value string) string {
+	value = " changed value here "
+	return value
 }

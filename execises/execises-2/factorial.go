@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	i := uint(2)
+	i := uint(4)
 	fact := factorial(i)
 	fmt.Println(fact)
 }

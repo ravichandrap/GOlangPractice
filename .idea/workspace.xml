@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7783b97-42bf-4669-91be-af9fcfba06e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e40905b2262a6466b9e2d17b27653cf8c4e30ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73fe7f4e4097f18fcbdbc5f2a9da55561ccb9027" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863acc3e78f5b953fd72a451d67f2a11ebad0f02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9368096c0b1818386da2438b3402c76d0c02cb11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7b38418f6c42c2df9134aa10156fab2a33cc669" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb0f249c0020c38d149f7dce7887b8a1c5b69722" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed813fffa85ee2b5bc972c45d090ce0a87d36839" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/ReadFiles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/ReadWriteFile.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/execises/execises-3/newKeyworkd.go" beforeDir="false" afterPath="$PROJECT_DIR$/execises/execises-3/newKeyworkd.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +31,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -73,22 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build VICCIDataVersion.go">
+  <component name="RunManager" selected="Go Build.go build GOPractice/io">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
-      <package value="firstGoPro" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build EnumsDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstGoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/enums/EnumsDemo.go" />
       <package value="firstGoPro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -102,6 +90,25 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build GOPractice/io" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="firstGoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/io/ReadWriteFile.go" />
+      <package value="GOPractice/io" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build ReadCSVFile.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -111,20 +118,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build ReadFiles.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="firstGoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/io/ReadFiles.go" />
+      <package value="firstGoPro" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build VICCIDataVersion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go" />
-      <package value="firstGoPro" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build showYearWeekDay.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstGoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/gotime/showYearWeekDay.go" />
       <package value="firstGoPro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GOPractice/io" />
+        <item itemvalue="Go Build.go build ReadFiles.go" />
         <item itemvalue="Go Build.go build VICCIDataVersion.go" />
         <item itemvalue="Go Build.go build ReadCSVFile.go" />
         <item itemvalue="Go Build.go build GOPractice/http" />
-        <item itemvalue="Go Build.go build showYearWeekDay.go" />
-        <item itemvalue="Go Build.go build EnumsDemo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +188,8 @@
       <workItem from="1575028297874" duration="4887000" />
       <workItem from="1575116899553" duration="1646000" />
       <workItem from="1575311011151" duration="4471000" />
-      <workItem from="1575448811619" duration="4088000" />
+      <workItem from="1575448811619" duration="7163000" />
+      <workItem from="1575624376064" duration="160000" />
     </task>
     <servers />
   </component>
@@ -202,6 +210,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -218,6 +227,11 @@
           <url>file://$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/io/ReadFiles.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
