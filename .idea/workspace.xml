@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7783b97-42bf-4669-91be-af9fcfba06e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fileNames.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/ReadFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/ReadWriteFile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/execises/execises-3/newKeyworkd.go" beforeDir="false" afterPath="$PROJECT_DIR$/execises/execises-3/newKeyworkd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotime/showYearWeekDay.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotime/showYearWeekDay.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build GOPractice/io">
+  <component name="RunManager" selected="Go Build.go build showYearWeekDay.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -78,15 +74,6 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
       <package value="firstGoPro" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GOPractice/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstGoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/http/HttpDemo.go" />
-      <package value="GOPractice/http" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -136,6 +123,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build showYearWeekDay.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="firstGoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gotime/showYearWeekDay.go" />
+      <package value="firstGoPro" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build showYearWeekDay.go" />
         <item itemvalue="Go Build.go build GOPractice/io" />
         <item itemvalue="Go Build.go build ReadFiles.go" />
         <item itemvalue="Go Build.go build VICCIDataVersion.go" />
         <item itemvalue="Go Build.go build ReadCSVFile.go" />
-        <item itemvalue="Go Build.go build GOPractice/http" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +186,8 @@
       <workItem from="1575311011151" duration="4471000" />
       <workItem from="1575448811619" duration="7163000" />
       <workItem from="1575624376064" duration="160000" />
+      <workItem from="1575883691501" duration="570000" />
+      <workItem from="1575908515358" duration="3000" />
     </task>
     <servers />
   </component>
