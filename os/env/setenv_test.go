@@ -13,4 +13,5 @@ func TestSetEnv(t *testing.T) {
 	post := os.Getenv("PORT")
 	fmt.Println(post)
 	assert.NotEmpty(t, os.Getenv("PORT"))
+	assert.Equal(t, os.Getenv("PORT"), "8080")
 }

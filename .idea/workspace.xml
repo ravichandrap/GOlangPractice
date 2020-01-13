@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7783b97-42bf-4669-91be-af9fcfba06e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myHttp/SimpleHttp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gotime/showYearWeekDay.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotime/showYearWeekDay.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/string/StringDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/string/StringDemo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/os/env/setenv_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/os/env/setenv_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,9 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vlzkHigI" />
   </component>
   <component name="ProjectId" id="1Qv9abP2i9X7cNyNbXJiNfbkH0v" />
   <component name="ProjectLevelVcsManager">
@@ -66,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build showYearWeekDay.go">
+  <component name="RunManager" selected="Go Build.go build GOPractice/flag">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -74,6 +80,15 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
       <package value="firstGoPro" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GOPractice/flag" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="firstGoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/flag/flagDemo.go" />
+      <package value="GOPractice/flag" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -96,15 +111,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ReadCSVFile.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstGoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/io/csv/ReadCSVFile.go" />
-      <package value="firstGoPro" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build ReadFiles.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -114,11 +120,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build VICCIDataVersion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build SimpleHttp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstGoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/http/dataversion/VICCIDataVersion.go" />
+      <filePath value="$PROJECT_DIR$/myHttp/SimpleHttp.go" />
       <package value="firstGoPro" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -145,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GOPractice/flag" />
+        <item itemvalue="Go Build.go build SimpleHttp.go" />
         <item itemvalue="Go Build.go build showYearWeekDay.go" />
         <item itemvalue="Go Build.go build GOPractice/io" />
         <item itemvalue="Go Build.go build ReadFiles.go" />
-        <item itemvalue="Go Build.go build VICCIDataVersion.go" />
-        <item itemvalue="Go Build.go build ReadCSVFile.go" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +194,7 @@
       <workItem from="1575624376064" duration="160000" />
       <workItem from="1575883691501" duration="570000" />
       <workItem from="1575908515358" duration="3000" />
+      <workItem from="1576592947668" duration="1115000" />
     </task>
     <servers />
   </component>
