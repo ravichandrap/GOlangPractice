@@ -1,0 +1,20 @@
+<html>
+<body>
+{{$lname := .Lname}}
+<h1> {{.Fname}}, {{$lname}}</h1>
+
+<p>
+<ul>
+{{range .Family}}
+    <li>{{.}}, {{$lname}}</li>
+{{end}}
+</ul>
+</p>
+<p>
+    {{range $key, $val := .Sages}}
+    <li><b>{{$key}}: </b>{{ $val}}</li>
+    {{end}}
+</p>
+
+</body>
+</html>
